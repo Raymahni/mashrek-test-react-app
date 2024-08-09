@@ -5,5 +5,7 @@
     "login": "Connexion",
     "welcome": "Bienvenue sur mon application",
     "validation_error": "Erreur de validation",
-    "login_button_pressed": "Bouton de connexion appuyé"
+    "login_button_pressed": "Bouton de connexion appuyé",
+    "theme": "fr"
+
 }
