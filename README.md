@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+Overview
+This React web application extends the functionality of the mobile app by providing a web-based user registration and authentication system. It supports country-specific username validation, localization, and country-based theming, with a secure mechanism for user authentication and data handling.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+User Authentication
+Login with Mobile App Credentials:
+Authenticate users using the credentials stored via the React Native mobile app.
+Country-Specific Username Validation
+Localization
+Supported Languages: English, [Spanish, French.
+Language Selection: Users can select their preferred language.
+Theming
 
-## Available Scripts
+Country-Based Theming:
+The web app theme changes based on the user’s selected country.
+Global Features
+Web Push Notifications:
 
-In the project directory, you can run:
 
-### `npm start`
+Responsive Design:
+The web app is responsive and adapts to different screen sizes.
+Post-Login Dashboard
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+User Information Dashboard:
+Displays user information after successful login.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Installation
 
-### `npm test`
+Clone the repository:
+git clone https://github.com/your-username/global-auth-web.git
+cd global-auth-web
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Install dependencies:
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run the app:
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+File Structure
+/src/components: Reusable components used throughout the app.
+/src/pages: Page components for login, dashboard, and other functionalities.
+/src/utils: Utility functions, validation rules, and other helpers.
+/src/i18n: Localization configuration and language files.
