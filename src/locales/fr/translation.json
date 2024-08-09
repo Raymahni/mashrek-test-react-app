@@ -1,0 +1,9 @@
+{
+    "select_country": "Choisir le pays",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "login": "Connexion",
+    "welcome": "Bienvenue sur mon application",
+    "validation_error": "Erreur de validation",
+    "login_button_pressed": "Bouton de connexion appuyé"
+}
