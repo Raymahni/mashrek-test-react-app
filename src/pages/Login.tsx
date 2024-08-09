@@ -54,11 +54,36 @@ const Login: React.FC = () => {
     { label: "USA", value: "USA" },
     { label: "Nigeria", value: "Nigeria" },
   ];
+
+  const styles: { [key: string]: React.CSSProperties } = {
+    title: {
+      color: "white",
+      fontSize: 24,
+      fontWeight: "bold",
+      marginBottom: 20,
+      textAlign: "center",
+      padding: 8,
+    },
+    en: {
+      backgroundColor: "green",
+    },
+    es: {
+      backgroundColor: "red",
+    },
+    fr: {
+      backgroundColor: "blue",
+    },
+  };
   return (
     <div className="flex flex-col items-center justify-center p-4">
       <BaseLanguageSwitcher />
       <div className="w-full shadow bg-white border p-8 rounded-md lg:w-1/3">
-        <h4 className="text-center text-lg mb-4">{t("welcome")}</h4>
+         <h4
+          style={{ ...styles.title, ...styles[t("theme")] }}
+          className="text-center text-2xl mb-4 font-bold"
+        >
+          {t("welcome")}
+        </h4>
         <form onSubmit={handleLogin}>
           <BaseSelect
             label={t("select_country")}
